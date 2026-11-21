@@ -42,7 +42,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"abajo",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -59,7 +59,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"arriba",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -82,7 +82,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"derecha",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -105,7 +105,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"izquierda",
-"speed": 4.0
+"speed": 8.0
 }]
 
 [node name="player 1" type="Node2D" unique_id=1949239415]
@@ -124,7 +124,7 @@ shape = SubResource("RectangleShape2D_1b833")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1782733393]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_slyti")
-animation = &"arriba"
+animation = &"abajo"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=2100219444]
 enabled = false
