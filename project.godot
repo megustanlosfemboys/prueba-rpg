@@ -17,16 +17,14 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-DialogueManager="*uid://c3rodes2l3gxb"
+Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
 directories/dch_directory={
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
-directories/dtl_directory={
-"1keseyo": "res://timeline/1keseyo.dtl"
-}
+directories/dtl_directory={}
 layout/style_directory={}
 glossary/default_case_sensitive=true
 text/letter_speed=0.01
@@ -73,7 +71,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
 
 [input]
 
