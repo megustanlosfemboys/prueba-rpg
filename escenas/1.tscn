@@ -117,10 +117,6 @@ script = ExtResource("1_sskfx")
 position = Vector2(0, 16)
 shape = SubResource("RectangleShape2D_1b833")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D" unique_id=764755262]
-position = Vector2(0, 16)
-shape = SubResource("RectangleShape2D_1b833")
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1782733393]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_slyti")
