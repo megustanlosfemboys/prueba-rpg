@@ -21,10 +21,11 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
-directories/dch_directory={
-"unit_test_character": "res://Tests/Resources/unit_test_character.dch"
+directories/dch_directory={}
+directories/dtl_directory={
+"1keseyo": "res://Tests/1keseyo.dtl",
+"Ayo": "res://Ayo.dtl"
 }
-directories/dtl_directory={}
 layout/style_directory={}
 glossary/default_case_sensitive=true
 text/letter_speed=0.01
